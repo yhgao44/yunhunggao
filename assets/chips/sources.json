@@ -1,0 +1,104 @@
+[
+  {
+    "asset": "assets/chips/cicc-die.png",
+    "source_filename": "需要扩展的CICC论文.pdf",
+    "pdf_page": 3,
+    "figure": "Fig. 4 (chip panel)",
+    "crop_points_from_top_left": [
+      44,
+      57,
+      188,
+      234
+    ],
+    "process": "Original PDF figure rendered at 4x. No image reconstruction or retouching."
+  },
+  {
+    "asset": "assets/chips/bls-die.png",
+    "source_filename": "BLS-Aware LDC (IEEE SensorsJ).pdf",
+    "pdf_page": 7,
+    "figure": "Fig. 11",
+    "crop_points_from_top_left": [
+      103,
+      202,
+      244,
+      347
+    ],
+    "process": "Original PDF figure rendered at 4x. No image reconstruction or retouching."
+  },
+  {
+    "asset": "assets/chips/bp-die.png",
+    "source_filename": "BP NS-SAR LDC （IEEE TVLSI）.pdf",
+    "pdf_page": 4,
+    "figure": "Fig. 9(a)",
+    "crop_points_from_top_left": [
+      51,
+      57,
+      184,
+      174
+    ],
+    "process": "Original PDF figure rendered at 4x. No image reconstruction or retouching."
+  },
+  {
+    "asset": "assets/chips/ns-die.png",
+    "source_filename": "NS-SAR LDC (IEEE TCAS-I).pdf",
+    "pdf_page": 10,
+    "figure": "Fig. 17",
+    "crop_points_from_top_left": [
+      70,
+      53,
+      279,
+      222
+    ],
+    "process": "Original PDF figure rendered at 4x. No image reconstruction or retouching."
+  },
+  {
+    "asset": "assets/chips/sar-die.png",
+    "source_filename": "SAR-LDC (IEEE TCAS-I).pdf",
+    "pdf_page": 9,
+    "figure": "Fig. 10",
+    "crop_points_from_top_left": [
+      69,
+      53,
+      281,
+      225
+    ],
+    "process": "Original PDF figure rendered at 4x. No image reconstruction or retouching."
+  },
+  {
+    "asset": "assets/chips/isscc-figure.png",
+    "source_url": "https://ic.pku.edu.cn/images/2023-03/fa50d229a0834b5b95a169b8211b89d7.png",
+    "source_page": "https://ic.pku.edu.cn/kxyj/kydt/bca8289fd1dc46e294e6d0f4a5195dae.htm",
+    "work": "ISSCC 2023 pipelined-SAR capacitance-to-digital converter",
+    "process": "Original university figure stored unchanged; CSS displays only its die micrograph panel.",
+    "display_crop_pixels": [
+      1176,
+      9,
+      1917,
+      363
+    ]
+  },
+  {
+    "asset": "assets/chips/bp-core.svg",
+    "source_asset": "assets/chips/bp-die.png",
+    "display_crop_pixels": [
+      121,
+      7,
+      387,
+      362
+    ],
+    "description": "TVLSI converter core with surrounding circuit context",
+    "process": "SVG viewport crops the supplied-paper micrograph to the converter core. Original pixels and annotations are preserved. Gallery and enlarged view both use this cropped asset."
+  },
+  {
+    "asset": "assets/chips/bls-core.svg",
+    "source_asset": "assets/chips/bls-die.png",
+    "display_crop_pixels": [
+      110,
+      24,
+      530,
+      342
+    ],
+    "description": "IEEE Sensors Journal converter core with surrounding circuit context",
+    "process": "SVG viewport crops the supplied-paper micrograph to the converter core. Original pixels and annotations are preserved. Gallery and enlarged view both use this cropped asset."
+  }
+]
