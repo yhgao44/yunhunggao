@@ -1,33 +1,3 @@
-# Yun-Hung (Victor) Gao · 个人学术网站
-
-这是根据你的 CV 制作的英文个人主页，参考 [leo-li.com](https://leo-li.com/) 的学术主页结构。采用独立编写的 HTML、CSS 和 JavaScript，包含个人介绍、电脑端并排的教育背景与博士后经历（手机端博士后经历在前）、研究亮点、Chip Gallery、论文、专利、专业经历、荣誉和教学服务。
-
-**不需要安装 Node.js、Hugo、数据库或网站主题。解压后双击 `index.html` 即可在浏览器预览。** 网站文件已准备好，但尚未上传到 GitHub，也尚未上线。
-
-## 通过网址访问，但不进入搜索结果
-
-当前首页已加入：
-
-```html
-<meta name="robots" content="noindex, nofollow">
-```
-
-部署最新版后，访客仍可点击你分享的链接，或在浏览器地址栏直接输入完整网址访问。支持这些规则的搜索引擎会被要求不收录首页，并且不通过首页追踪链接。`noindex` 不是密码保护，也不限制知道网址的访客访问或转发。
-
-- 上传最新版 `index.html` 到网站发布分支，等待 GitHub Pages 部署完成；本地修改本身不会影响线上版本。
-- 不要再添加 `robots.txt` 的 `Disallow: /`；这会阻止爬虫读取首页的 `noindex`，导致网址仍可能出现在搜索结果中。
-- 如果页面之前已被收录，要等搜索引擎重新抓取；如需加快 Google 移除，可在验证站点所有权后使用 Google Search Console 的移除工具，并保留 `noindex`。
-- 该标签仅作用于这个 HTML 页面，不会让 GitHub 的公开仓库变私密，也不能单独控制 CV PDF 的收录。PDF 等独立资源需要在托管层设置 `X-Robots-Tag: noindex`，或使用真正的访问控制。`nofollow` 不能保证这些文件不会通过其他链接被发现。
-- 各搜索引擎对规则的支持可能不同，因此不能保证任何公开内容永远都无法被搜索到。若需要真正保密，应采用登录或密码访问。
-
-依据：[Google noindex 文档](https://developers.google.com/search/docs/crawling-indexing/block-indexing)、[Google robots 标签与 PDF 响应头说明](https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag)。GitHub Pages 的私密项目站点访问控制需要组织使用 GitHub Enterprise Cloud，不能将个人站点仓库改为 Private 就视为已经给网站加密；见 [GitHub 访问控制说明](https://docs.github.com/en/enterprise-cloud@latest/pages/getting-started-with-github-pages/changing-the-visibility-of-your-github-pages-site)。
-
-## 你截图里的 Import 页面应该怎么处理？
-
-点击 **Cancel**，转到 [新建 GitHub 仓库](https://github.com/new)。
-
-截图中的 **The URL for your source repository** 是“已有远程 Git 仓库地址”，不是网站展示地址。`https://leo-li.com` 是网页，不能填到这个字段里。GitHub Importer 用来迁移现有仓库的代码和提交历史；当前这套网站在你的电脑中，适合直接上传文件。[GitHub Importer 官方说明](https://docs.github.com/en/migrations/importing-source-code/using-github-importer/importing-a-repository-with-github-importer)
-
 ## 方法一：用网页上传（推荐）
 
 ### 1. 新建仓库
